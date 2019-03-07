@@ -1,1 +1,3 @@
 Small repo created to store POC of moving UIView(?) that will inspect and try to guess with what kind of element its dealing with. Image recognition will be used in further development
+
+The idea is to create an UIView called Inspector element that will move on two axises x and y, when Inspector collides with different element in the view on the axis X it tries to recognize it and print out the result, once thats done it tries to move on the axis x to see if there's anything in line with recognized element, if nothing found Inspector moves back to the last recognized element to move further on the axis X and so on
